@@ -12,7 +12,9 @@ end
 def get_contestant_name(data, occupation)
   data.each do |seasons|
     seasons.each do |season|
-      season.each do |contestants
+      season.each do |key, value|
+        
+      end 
     end 
   end 
 end
