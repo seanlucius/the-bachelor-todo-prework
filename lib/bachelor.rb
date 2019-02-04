@@ -14,7 +14,7 @@ def get_contestant_name(data, occupation)
     seasons_arrays.each do |contestants|
       contestants.each do |key, value|
         if value == occupation 
-          return ["name"]
+          return contestants["name"]
         end 
       end 
     end 
