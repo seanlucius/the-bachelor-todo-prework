@@ -51,7 +51,7 @@ def get_average_age_for_season(data, season)
   data[season].each do |season_collection|
     season_collection.each do |key, value|
       if value == "Winner"
-        return season_collection["name"].split(" ")[0]
+        
       end 
     end 
   end 
