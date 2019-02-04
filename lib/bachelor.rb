@@ -11,8 +11,8 @@ end
 
 def get_contestant_name(data, occupation)
   data.each do |seasons|
-    seasons.each do |indv_season|
-      
+    seasons.each do |season|
+      season.each do |contestants
     end 
   end 
 end
