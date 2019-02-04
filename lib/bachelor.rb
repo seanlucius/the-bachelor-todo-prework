@@ -3,6 +3,8 @@ def get_first_name_of_season_winner(data, season)
     season_collection.each do |key, value|
       if value == "Winner"
         
+      end 
+        
     end 
   end 
 end
