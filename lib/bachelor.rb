@@ -1,5 +1,5 @@
 def get_first_name_of_season_winner(data, season)
-  data[season].each do |season_hash|
+  data[season].each do |season_collection
     
   end 
 end
