@@ -1,6 +1,9 @@
 def get_first_name_of_season_winner(data, season)
   data[season].each do |season_collection|
-    season_collection.each do |
+    season_collection.each do |key, value|
+      if 
+        
+    end 
   end 
 end
 
